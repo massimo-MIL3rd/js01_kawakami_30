@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 15px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width:100%;
+}
+
+.result{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#pc_hands{
+    justify-content: center;
+    margin-left: 30px;
+}
+#judgment{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+}
+
+.score-board{
+    margin: 20px auto;
+    border: 5px solid black;
+    border-radius: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 20px;
+    width: 300px;
+    position: relative;
+}
+
+.badge {
+    background: greenyellow;
+    font-size: 30px;
+    padding: 4px 10px;
+}
+
+#user-label{
+    position: absolute;
+    top: 20px;
+    left: -45px;
+}
+
+#comp-label{
+    position: absolute;
+    top: 20px;
+    right: -45px;
+}
+
+main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+
+ul{
+    margin-bottom: 80px;
+    height: 200px;
+    width:100%;
+}
+li{
+    background-color: #FFF;
+    display:inline-block;
+    text-align: center;
+    margin-right: 40px;
+    cursor: pointer;
+    height: 200px;
+    transition: all 0.3s ease;
+}
+li:hover{
+    transform: scale(1.2,1.2);
+    color:#fff;
+}
